@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "readsmate-app",
+    "name": "Readsmate",
     "slug": "readsmate-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/nameBrandLogo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/nameBrandLogoSplash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/nameBrandLogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.vala_laiton.readsmateapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f4ea107-c725-4ccb-be3a-473de34c506a"
+      }
     }
   }
 }
